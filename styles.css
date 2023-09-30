@@ -1,0 +1,112 @@
+body {
+    background-color: #f8fcff;
+    font-family:'Poppins', sans-serif;;
+    user-select: none;
+}
+
+.frontpage {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.input-section {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    min-width: 250px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 60px;
+    height: auto;
+}
+
+.input-container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #D8DCEA;
+    height: 45px;
+    width: 100%;
+}
+
+input[type='text'] {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+input::placeholder {
+    text-align: center;
+    color: black;
+    opacity: 0.35;
+    font-size: 20px;
+}
+
+#addItemButton {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 45px;
+    width: 100%;
+    background-color: #526FFF;
+    color: white;
+    font-family: 'Poppins', sans-serif;    
+    font-size: 20px;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+#addItemButton:hover {
+    background-color: #4C2F1B;
+
+}
+
+#shopping-list {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#shopping-list li {
+    cursor: pointer;
+    color: #4C2F1B;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 3px;
+    text-align: center;
+    flex-grow: 1;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+
+}
+
+#shopping-list li:hover {
+    background-color: #bceaff;
+}
+
+
